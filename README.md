@@ -1,5 +1,3 @@
-# Cloud-Based-Network-Performance-Testing
-Cloud-Based Network Performance Testing
 
 # Cloud-Based Network Performance Testing with LibreSpeed
 
@@ -105,11 +103,13 @@ sudo firewall-cmd --reload
 
 Once the container is running, the LibreSpeed web interface can be accessed via:
 
-http://<public-ip>:8080  
+http://public_ip_of_machine:8080  
+
+This is using public IP because the instance was created in a cloud environment and test was done from remote location.
+For internal testing, this can be achieved by localhost as well.
 
 You should see the LibreSpeed user interface where you can conduct network speed tests.
 
-![LibreSpeed UI](https://via.placeholder.com/600x400?text=LibreSpeed+UI)
 
 ---
 
