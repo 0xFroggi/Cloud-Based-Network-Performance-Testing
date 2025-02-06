@@ -32,7 +32,7 @@ sudo systemctl enable docker
 sudo systemctl start docker  
 sudo systemctl status docker  
 
-![Docker Installation](https://via.placeholder.com/600x400?text=Docker+Installation)
+![Docker Installation](https://github.com/0xFroggi/Cloud-Based-Network-Performance-Testing/blob/main/images/docker%20status.png)
 
 ---
 
@@ -68,8 +68,8 @@ docker run -d \
 --restart unless-stopped \  
 ghcr.io/linuxserver/librespeed  
 
-![Container Creation](https://via.placeholder.com/600x400?text=Container+Creation)  
-![Directory Structure](https://via.placeholder.com/600x400?text=Directory+Structure)
+![Container Creation](https://github.com/0xFroggi/Cloud-Based-Network-Performance-Testing/blob/main/images/docker%20ps.png)  
+![Directory Structure](https://github.com/0xFroggi/Cloud-Based-Network-Performance-Testing/blob/main/images/directory%20structure.png)
 
 ---
 
@@ -95,7 +95,7 @@ sudo firewall-cmd --add-port 9000/tcp --permanent  # Portainer (if used)
 
 sudo firewall-cmd --reload  
 
-![Firewall Configuration](https://via.placeholder.com/600x400?text=Firewall+Configuration)
+![Firewall Configuration](https://github.com/0xFroggi/Cloud-Based-Network-Performance-Testing/blob/main/images/firewall%20running%20and%20config.png)
 
 ---
 
@@ -117,7 +117,7 @@ You should see the LibreSpeed user interface where you can conduct network speed
 
 Navigate to the LibreSpeed web interface and run a test. The results should display **download speed, upload speed, latency, and jitter**.
 
-![Speed Test Results](https://via.placeholder.com/600x400?text=Speed+Test+Results)
+![Speed Test Results](https://github.com/0xFroggi/Cloud-Based-Network-Performance-Testing/blob/main/images/speed%20test%20example.png)
 
 ---
 
