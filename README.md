@@ -62,7 +62,7 @@ docker run -d \
 --name=librespeed \  
 -e PUID=1000 \  
 -e PGID=1000 \  
--e TZ=America/New_York \  
+-e TZ=(Relevant timezone) \  
 -p 8080:80 \  
 -v /home/fedora/docker/librespeed/config:/config \  
 --restart unless-stopped \  
